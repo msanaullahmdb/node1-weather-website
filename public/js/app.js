@@ -8,7 +8,7 @@ search.addEventListener('submit', (e) => {
     
     e.preventDefault()
 
-    messageOne.textContent = 'Loading.....'
+    messageOne.textContent = 'Loading...'
     messageTwo.textContent = ''
 
     const address = inputSearch.value
