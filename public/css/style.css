@@ -1,0 +1,59 @@
+body {
+
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+    
+}
+
+.sub-content {
+    margin-top: 80px;
+    text-align: center;
+}
+
+form {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+input {
+    padding: 10px;
+    border: 3px solid gray;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px;
+    border: 3px solid gray;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+}
+
+header div {
+    background-color: darkgray;
+    padding: 20px;
+}
+
+
+header h1 {
+    text-align: center;
+}
+
+header div a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: darkgray;
+    padding: 2px;
+    text-align: center;
+    color: white;
+}
